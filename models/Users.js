@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const UserSchema = new mongoose.Schema({
     username: String,
-    avatar: Image,
+    //avatar: Buffer,
     name: String,
     surname: String,
     age: Number,
