@@ -5,7 +5,7 @@ require('dotenv').config()
 //añadir CORS
 
 const PORT = process.env.PORT || 3000
-const routes = require('./routes/')  //terminar path de routes
+const routes = require('./routes/postsRoutes.js')
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
