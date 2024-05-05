@@ -17,3 +17,4 @@ router.delete('/user/id/:_id', Controller.deleteUser)
 
 
 module.exports = router
+

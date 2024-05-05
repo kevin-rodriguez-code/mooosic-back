@@ -17,5 +17,5 @@ app.use('/', routes);
 dbConnection()
 
 app.listen(PORT, () => {
-    console.log(`Express está escuchando en el puerto http://localhost:${PORT}`)
-})
+    console.log(`Express está escuchando en el puerto http://localhost:3000`)
+}) 
